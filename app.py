@@ -6,7 +6,7 @@ def calculate_total(price, quantity):
     if price < 0 or quantity < 0:
         raise ValueError("Invalid input")
 
-    return price * quantity
+    return price + quantity
 
 
 def apply_discount(total, discount):
